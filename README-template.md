@@ -1,6 +1,6 @@
-# Christmas tree animation: {{name}}
+# Christmas tree animation: {{uname}}
 
-An animation containing {{name}}
+An animation trying to show {{lname}}
 
 The following environment variables can be used for configuration: 
 

@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: christmas-tree-animation-{{name}}-${STAGE:debug}
+    name: christmas-tree-animation-{{lname}}-${STAGE:debug}
     instance:
       id: ${random.shortuuid}
 consul:
@@ -11,7 +11,7 @@ consul:
       - christmas-tree
       - animation
       - special
-      - {{name}}
+      - {{lname}}
       - ${STAGE:debug}
       retry-count: 5
       fail-fast: true
