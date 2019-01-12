@@ -5,7 +5,8 @@ Usage:
 
 ** Step 1.**
 
-    Think of a cool name and use it whenever you see <name>
+    Think of a cool name and use it whenever you see <name>. 
+    (Use lowercase on the git and Camelcase on the create-animation line)
     
 ** Step 2.**    
 
