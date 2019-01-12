@@ -1,5 +1,5 @@
 package nl.pvanassen.christmas.tree.animation.{{lname}}.animation
 
-class {{uname}}state() {
+class {{uname}}State() {
 
 }
