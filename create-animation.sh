@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 NAME=$1
 
@@ -15,6 +15,7 @@ mv src/main/kotlin/nl/pvanassen/christmas/tree/animation/template/animation/Temp
 mv src/main/kotlin/nl/pvanassen/christmas/tree/animation/template src/main/kotlin/nl/pvanassen/christmas/tree/animation/$LOWER_NAME
 rm README.md
 mv README-template.md README.md
+rm create-animation.sh
 rm -rf .git
 git init
 git add .
