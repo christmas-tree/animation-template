@@ -10,7 +10,6 @@ consul:
       tags:
       - christmas-tree
       - animation
-      - special
       - {{lname}}
       - ${STAGE:debug}
       retry-count: 5
